@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Doblet</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Quicksand:300|Rock+Salt|Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="menu.css">
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+</head>
+<body>
+	<div class="mainwrapper">
+		<header class="main-header">
+			<a href="#"><img id="logo" src="doblet-white.png"/></a>
+			<a href="#menu" id="toggle"><span></span></a>
+			<div id="menu">
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">Sign Up</a></li>
+					<li><a href="#contact">Sign In</a></li>
+				</ul>
+			</div>
+			<div class="desktop-menu">
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">Sign Up</a></li>
+					<li id="last"><a href="#contact">Sign In</a></li>
+				</ul>
+			</div>
+		</header>
+		<div class="extra-content design col">
+			<h2>Extra Content</h2>
+			<p>Tonx pickled ethnic keytar, dreamcatcher fanny pack ugh Pinterest freegan. Forage leggings ethnic, vinyl seitan 3 wolf moon locavore brunch viral you probably haven't heard of them Tonx bicycle rights master cleanse. Art party 3 wolf moon keytar stumptown. 90's umami ennui PBR kogi, sartorial hoodie. Flannel banjo photo booth, squid put a bird on it mixtape seitan authentic PBR&B pug retro Odd Future.</p>
+		</div>
+		<div class="banner col">
+			<img id="mobile-logo" src="charging-iphone.jpg"/>
+			<h1>You're just a charge away...</h1>
+			<p>Ever been out with friends only to realize that you only have 2% battery left on your phone?  You still have to get home: order a Sidecar, check Google maps, see when the next bus or train is coming.  Or maybe, you aren't ready to leave.  Why should low battery life stop you from living yours?</p>
+			<hr>
+			<a href="#" class="button"><div class="Doblet">Try Doblet Today</div></a>
+		</div>
+		<div class="testimonials design col">
+			<h2>Testimonials</h2>
+			<p>"I never realized how badly I needed Doblet until I was stuck without battery in a bad part of town.  All you need is a little charge to get yourself safely home, and Doblet gave me exactly that.  I honestly don't know where I'd be without it!" -Kelly</p>
+			<p>"Providing Doblet at my bar has drastically improved business as well as allowed me to connect better with my customers needs.  Can't speak highly enough about it!" -Rick from Rickhouse"
+			</div>
+		</div>
+	</body>
+	<script>
+		$(document).ready(function(){
+			$(".banner").slideUp(0.5).delay(2).slideDown(1000);
+
+			$("#toggle").click(function(){
+				$("#menu").toggle();
+			});
+		});
+	</script>
+	<script type='text/javascript' src='navbar.js'></script>
+	</html>
