@@ -1,59 +1,88 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Doblet</title>
-	<link rel="stylesheet" type="text/css" href="normalize.css">
-	<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Quicksand:300|Rock+Salt|Open+Sans' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<link rel="stylesheet" type="text/css" href="menu.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="fonts.css" />
+	<link rel="stylesheet" type="text/css" href="main.css"/>
 	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
 </head>
 <body>
-	<div class="mainwrapper">
-		<header class="main-header">
-			<a href="#"><img id="logo" src="doblet-white.png"/></a>
-			<a href="#menu" id="toggle"><span></span></a>
-			<div id="menu">
-				<ul>
-					<li><a href="#home">Home</a></li>
-					<li><a href="#about">Sign Up</a></li>
-					<li><a href="#contact">Sign In</a></li>
+	<div class="stickymenu_wrap">
+		<div class="stickymenu">
+			<a href="#" class="button desktop">Pre-Order Today</a>
+			<a href="javscript:void(0);" id="buttonMenuHidden" class="btn_menu tablet">
+				<h1><a href="#"><img src="logo.png" alt="Doblet" /></a></h1>
+				<ul class="sticky_nav desktop">
+					<li><a href="#home" class="anchorLink active">Home</a></li>
+					<li><a href="#sign_in" class="anchorLink">Sign In</a></li>
+					<li><a href="#sign_up" class="anchorLink">Sign Up</a></li>
+					<li><a href="#about" class="anchorLink">About</a></li>
 				</ul>
 			</div>
-			<div class="desktop-menu">
-				<ul>
-					<li><a href="#home">Home</a></li>
-					<li><a href="#about">Sign Up</a></li>
-					<li id="last"><a href="#contact">Sign In</a></li>
+		</div>
+		<div class="top_wrap">
+			<div class="header sections" id="sectionTop">
+				<a href="#" class="button desktop">Pre-Order Today</a>
+				<a href="javscript:void(0);" id="buttonMenu" class="btn_menu tablet">
+					<img src="btn_menu.png" alt="Menu">
+				</a>
+				<h1><a href="#"><img src="logo.png" alt="Doblet" /></a></h1>
+				<ul class="main_nav desktop">
+					<li><a href="#home" class="anchorLink active">Home</a></li>
+					<li><a href="#sign_in" class="anchorLink">Sign In</a></li>
+					<li><a href="#sign_up" class="anchorLink">Sign Up</a></li>
+					<li class="last"><a href="#about" class="anchorLink">About</a></li>
 				</ul>
+				<ul class="main_nav tablet" id="divMenu">
+					<li><a href="#home" class="anchorLink active">Home</a></li>
+					<li><a href="#sign_in" class="anchorLink">Sign In</a></li>
+					<li><a href="#sign_up" class="anchorLink">Sign Up</a></li>
+					<li class="last"><a href="#about" class="anchorLink">About</a></li>
+				</ul>
+				<div class="push"></div>
 			</div>
-		</header>
-		<div class="extra-content design col">
-			<h2>Extra Content</h2>
-			<p>Tonx pickled ethnic keytar, dreamcatcher fanny pack ugh Pinterest freegan. Forage leggings ethnic, vinyl seitan 3 wolf moon locavore brunch viral you probably haven't heard of them Tonx bicycle rights master cleanse. Art party 3 wolf moon keytar stumptown. 90's umami ennui PBR kogi, sartorial hoodie. Flannel banjo photo booth, squid put a bird on it mixtape seitan authentic PBR&B pug retro Odd Future.</p>
+			<h2 class="tagline">Changing the way you live, one charge at a time.</h2>
+			<div class="devices">
+				<img src="doblet-main.png" alt="Doblet">
+			</div>
 		</div>
-		<div class="banner col">
-			<img id="mobile-logo" src="charging-iphone.jpg"/>
-			<h1>You're just a charge away...</h1>
-			<p>Ever been out with friends only to realize that you only have 2% battery left on your phone?  You still have to get home: order a Sidecar, check Google maps, see when the next bus or train is coming.  Or maybe, you aren't ready to leave.  Why should low battery life stop you from living yours?</p>
-			<hr>
-			<a href="#" class="button"><div class="Doblet">Try Doblet Today</div></a>
-		</div>
-		<div class="testimonials design col">
-			<h2>Testimonials</h2>
-			<p>"I never realized how badly I needed Doblet until I was stuck without battery in a bad part of town.  All you need is a little charge to get yourself safely home, and Doblet gave me exactly that.  I honestly don't know where I'd be without it!" -Kelly</p>
-			<p>"Providing Doblet at my bar has drastically improved business as well as allowed me to connect better with my customers needs.  Can't speak highly enough about it!" -Rick from Rickhouse"
+		<div class="content_wrap">
+			<div class="content">
+				<div class="tier_1_wrap">
+					<h2>Charge It Anywhere</h2>
+					<div class="tier_1">
+						<div class="left">
+							<p>Ever been out with friends only to realize that you have just 2% battery left on your phone?  You still have to get home: order a Sidecar, check Google maps, see when the next bus or train is coming.  Or maybe, you aren't ready to leave.  Why should low battery life stop you from living yours?</p>
+						</div>
+						<div class="right">
+							<img src="doblet_01v.png" alt="Doblet" />
+						</div>
+					</div>
+				</div>
+				<div class="tier_2_wrap">
+					<div class="tier_2">
+						<div class="border">
+							<h2>Doblet on the Go</h2>
+						</div>
+						<h3>Subtle and sleek, fast and functional, Doblet keeps the party going all night long.</h3>
+						<div class="bars">
+							<img src="bars_phone.png" alt="image"/>
+						</div>
+					</div>
+				</div>
+				<div class="tier_3_wrap">
+					<div class="tier_3">
+						<div class="border">
+							<h2>Testimonials</h2>
+						</div>
+						<div class="paragraphs">
+							<p>"I never realized how badly I needed Doblet until I was stuck without battery in a bad part of town.  All you need is a little charge to get yourself safely home, and Doblet gave me exactly that.  I honestly don't know where I'd be without it!" -Kelly</p>
+							<p>"Providing Doblet at my bar has drastically improved business as well as allowed me to connect better with my customers needs.  Can't speak highly enough about it!" -Rick from Rickhouse"</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>
-	<script>
-		$(document).ready(function(){
-			$(".banner").slideUp(0.5).delay(2).slideDown(1000);
-
-			$("#toggle").click(function(){
-				$("#menu").toggle();
-			});
-		});
-	</script>
-	<script type='text/javascript' src='navbar.js'></script>
+	<script type="text/javascript" src="sticky-menu.js"></script>
 	</html>

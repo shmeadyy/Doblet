@@ -20,6 +20,17 @@ body {
   margin: 0;
 }
 
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
 /* HTML5 display definitions
    ========================================================================== */
 
