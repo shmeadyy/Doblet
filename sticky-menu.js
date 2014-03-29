@@ -24,4 +24,8 @@ $(window).load(function() {
 	$('#buttonMenu').click(function(){
 		$('#divMenu').toggle();
 	});
+
+	$('#buttonMenuHidden').click(function(){
+		$('#divMenuHidden').toggle();
+	})
 });
